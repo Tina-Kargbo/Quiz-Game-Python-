@@ -1,12 +1,12 @@
 
-QuizPlay = input("Hello there! Would you like to take the quiz? Yes or No? ")
+QuizPlay = input("Hello there! Would you like to take the quiz? yes or no? ")
 
-if QuizPlay == "Yes":
+if QuizPlay.lower() == "yes":
     print("Great, Let's play!")
-elif QuizPlay == "No":
+elif QuizPlay.lower() == "no":
     quit()
 else:
-    print("This input is not valid. Please answer Yes or No as a valid input.")
+    print("This input is not valid. Please answer yes or no as a valid input.")
 
 
 #code was taken from python CI lesson, "What are input/output operations?"
